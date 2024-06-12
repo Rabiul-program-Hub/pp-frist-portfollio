@@ -24,18 +24,6 @@ header {
 
 }
 
-.header-title {
-    transform: rotate(-90deg);
-    color: rgba(24, 24, 24, 0.15);
-    font-family: "Open Sans";
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 33px;
-    padding-left: 0px;
-}
-
 /* nav style section */
 nav {
     display: flex;
@@ -125,7 +113,8 @@ ul a {
     text-align: center;
 }
 
-.about-heading,.skill-heading {
+.about-heading,
+.skill-heading {
     color: var(--Dark-01, #181818);
     font-family: "Open Sans";
     font-size: 35px;
@@ -134,7 +123,8 @@ ul a {
     text-align: center;
 }
 
-.about-description,.skill-greetig {
+.about-description,
+.skill-greetig {
     color: var(--Dark-03, #757575);
     text-align: center;
     font-family: "Open Sans";
@@ -170,4 +160,113 @@ ul a {
     padding: 10px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section */
+
+.resume-summary-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 4 5px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resume-column-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.resume-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.instute {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.resume-description {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    width: 511px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+.download-cv {
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* footer section */
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    gap: 20px;
+    width: 1600px;
+    height: 780px;
+    padding: 130px 200px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+.social-link a{
+margin-left: 24px;
+}
+
+.footer-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-description{
+    color: var(--Dark-02, #474747);
+font-family: "Open Sans";
+width: 562px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+padding: 20px 0px;
+}
+form input , textarea{
+display: block;
+margin-top: 24px;
+padding:18px 30px ;
+width: 100%;
+border-radius: 9px;
+border: none;
 }
